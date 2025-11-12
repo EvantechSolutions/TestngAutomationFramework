@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Suite" parallel="tests" thread-count="3">
+	<listeners>
+		<listener class-name="Utility.TestListener" />
+		<listener class-name="io.qameta.allure.testng.AllureTestNg" />
+
+	</listeners>
+	<test name="Klov Validation">
+		<classes>
+		<class name="Utility.AllureCleanup" />
+		<class name="com.framework.tests.UI.ContactusTest" />
+		</classes>
+	</test>
+
+
+</suite>

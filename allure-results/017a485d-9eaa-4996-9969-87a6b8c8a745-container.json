@@ -1,0 +1,1 @@
+{"uuid":"017a485d-9eaa-4996-9969-87a6b8c8a745","name":"Regression Suite","children":["7c40f8e6-290f-46b1-b005-2ebc21965e06"],"befores":[{"name":"cleanAllureFolders","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1762955206993,"stop":1762955207005}],"afters":[],"start":1762955206970,"stop":1762955230415}

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-12T18:40:08 IST" name="Regression Suite" finished-at="2025-11-12T18:40:32 IST" duration-ms="24157">
+    <groups>
+      <group name="Smoke">
+        <method signature="HomePageTest.HomePageBannerTextValidation()[pri:1, instance:com.framework.tests.UI.HomePageTest@7d9f158f]" name="HomePageBannerTextValidation" class="com.framework.tests.UI.HomePageTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-11-12T18:40:08 IST" name="BasicValidation" finished-at="2025-11-12T18:40:32 IST" duration-ms="24157">
+      <class name="com.framework.tests.API.ApiTest">
+        <test-method is-config="true" signature="setupApi()[pri:0, instance:com.framework.tests.API.ApiTest@4b8729ff]" started-at="2025-11-12T18:40:08 IST" name="setupApi" finished-at="2025-11-12T18:40:08 IST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApi -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.API.ApiTest@4b8729ff]" started-at="2025-11-12T18:40:08 IST" name="setUp" finished-at="2025-11-12T18:40:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CreatePostUser()[pri:0, instance:com.framework.tests.API.ApiTest@4b8729ff]" started-at="2025-11-12T18:40:08 IST" name="CreatePostUser" finished-at="2025-11-12T18:40:11 IST" duration-ms="2334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatePostUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.API.ApiTest@4b8729ff]" started-at="2025-11-12T18:40:11 IST" name="tearDown" finished-at="2025-11-12T18:40:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.API.ApiTest@4b8729ff]" started-at="2025-11-12T18:40:11 IST" name="setUp" finished-at="2025-11-12T18:40:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="GetUsers()[pri:0, instance:com.framework.tests.API.ApiTest@4b8729ff]" started-at="2025-11-12T18:40:11 IST" name="GetUsers" finished-at="2025-11-12T18:40:12 IST" duration-ms="1626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.API.ApiTest@4b8729ff]" started-at="2025-11-12T18:40:12 IST" name="tearDown" finished-at="2025-11-12T18:40:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.API.ApiTest@4b8729ff]" started-at="2025-11-12T18:40:12 IST" name="setUp" finished-at="2025-11-12T18:40:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Users()[pri:0, instance:com.framework.tests.API.ApiTest@4b8729ff]" started-at="2025-11-12T18:40:12 IST" name="Users" finished-at="2025-11-12T18:40:12 IST" duration-ms="7" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping  Users test intentionally for demo]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping  Users test intentionally for demo
+at com.framework.tests.API.ApiTest.Users(ApiTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Users -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.API.ApiTest@4b8729ff]" started-at="2025-11-12T18:40:12 IST" name="tearDown" finished-at="2025-11-12T18:40:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.framework.tests.API.ApiTest -->
+      <class name="Utility.AllureCleanup">
+        <test-method is-config="true" signature="cleanAllureFolders()[pri:0, instance:Utility.AllureCleanup@3e78b6a5]" started-at="2025-11-12T18:40:08 IST" name="cleanAllureFolders" finished-at="2025-11-12T18:40:08 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanAllureFolders -->
+      </class> <!-- Utility.AllureCleanup -->
+      <class name="com.framework.tests.UI.ContactusTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.UI.ContactusTest@6bb4dd34]" started-at="2025-11-12T18:40:19 IST" name="setUp" finished-at="2025-11-12T18:40:21 IST" duration-ms="1913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="FormSubmission()[pri:3, instance:com.framework.tests.UI.ContactusTest@6bb4dd34]" started-at="2025-11-12T18:40:21 IST" name="FormSubmission" finished-at="2025-11-12T18:40:31 IST" duration-ms="10755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormSubmission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.UI.ContactusTest@6bb4dd34]" started-at="2025-11-12T18:40:32 IST" name="tearDown" finished-at="2025-11-12T18:40:32 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.framework.tests.UI.ContactusTest -->
+      <class name="com.framework.tests.UI.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.UI.HomePageTest@7d9f158f]" started-at="2025-11-12T18:40:12 IST" name="setUp" finished-at="2025-11-12T18:40:15 IST" duration-ms="2889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="HomePageBannerTextValidation()[pri:1, instance:com.framework.tests.UI.HomePageTest@7d9f158f]" started-at="2025-11-12T18:40:15 IST" name="HomePageBannerTextValidation" finished-at="2025-11-12T18:40:15 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageBannerTextValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.UI.HomePageTest@7d9f158f]" started-at="2025-11-12T18:40:16 IST" name="tearDown" finished-at="2025-11-12T18:40:16 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.framework.tests.UI.HomePageTest -->
+      <class name="com.framework.tests.UI.ServiceTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.framework.tests.UI.ServiceTest@45efd90f]" started-at="2025-11-12T18:40:16 IST" name="setUp" finished-at="2025-11-12T18:40:18 IST" duration-ms="2011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ServicePageValidation()[pri:2, instance:com.framework.tests.UI.ServiceTest@45efd90f]" started-at="2025-11-12T18:40:18 IST" name="ServicePageValidation" finished-at="2025-11-12T18:40:18 IST" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServicePageValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.UI.ServiceTest@45efd90f]" started-at="2025-11-12T18:40:19 IST" name="tearDown" finished-at="2025-11-12T18:40:19 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.framework.tests.UI.ServiceTest -->
+    </test> <!-- BasicValidation -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
