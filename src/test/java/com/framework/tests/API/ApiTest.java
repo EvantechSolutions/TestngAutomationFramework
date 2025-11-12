@@ -19,7 +19,7 @@ public class ApiTest extends BaseApi {
 		String body = "{ \"title\": \"foo\", \"body\": \"bar\", \"userId\": 1 }";
 		Response res = given().spec(requestSpec).body(body).when().post("/posts").then().extract().response();
 		Assert.assertEquals(res.statusCode(), 201);
-		Assert.assertEquals(res.jsonPath().getString("title"), "foo");
+		Assert.assertEquals(res.jsonPath().getString("title"), "foos");
 	}
 	@Test
 	public void Users() {
